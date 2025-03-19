@@ -128,6 +128,11 @@
         "label": "One Dark Pro Night Flat",
         "uiTheme": "vs-dark",
         "path": "./themes/OneDark-Pro-night-flat.json"
+      },
+      {
+        "label": "One Dark Pro Two Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/OneDark-PRO-two-dark.json"
       }
     ],
     "configuration": {
@@ -299,7 +304,8 @@
   },
   "dependencies": {
     "@types/marked": "^4.0.1",
-    "marked": "4"
+    "marked": "4",
+    "polished": "^4.3.1"
   },
   "capabilities": {
     "untrustedWorkspaces": {

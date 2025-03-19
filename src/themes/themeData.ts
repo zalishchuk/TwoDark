@@ -27,6 +27,7 @@ export default {
     'One Dark Pro Flat': () => import('./data/oneDarkProFlat'),
     'One Dark Pro Mix': () => import('./data/oneDarkProMix'),
     'One Dark Pro Night Flat': () => import('./data/oneDarkProNightFlat'),
+    'One Dark Pro Two Dark': () => import('./data/oneDarkProTwoDark'),
     Panda: () => import('./data/panda'),
     Retro: () => import('./data/retro'),
     Shadow: () => import('./data/shadow'),
@@ -2114,13 +2115,11 @@ export default {
         },
       },
       {
-        scope:[
-          "constant.character.math.tex"
-        ],
+        scope: ['constant.character.math.tex'],
         settings: {
           foreground: colorType.green,
         },
-      }
+      },
     ],
     italic: [
       {
